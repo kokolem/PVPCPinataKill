@@ -1,1 +1,5 @@
-onPinataKill: "say Pinatu zabil %player_name%"
+# Always nice to leave a note if the option is not straight forward.
+# Commands to execute when the Pinata is killed.
+# Allows PlaceholderAPI placeholders.
+onPinataKill:
+  - "say Pinatu zabil %player_name%"
