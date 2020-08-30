@@ -1,4 +1,4 @@
-package pvpc.pinatakill;
+package cz.pvpcraft.pinatakill;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

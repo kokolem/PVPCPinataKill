@@ -1,4 +1,4 @@
-package pvpc.pinatakill;
+package cz.pvpcraft.pinatakill;
 
 import me.clip.placeholderapi.PlaceholderAPI;
 import me.hexedhero.pp.api.PinataDieEvent;
