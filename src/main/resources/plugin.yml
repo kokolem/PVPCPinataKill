@@ -1,0 +1,7 @@
+name: PinataKill
+version: ${project.version}
+main: pvpc.pinatakill.PinataKill
+api-version: 1.16
+description: Run custom command on pinata kill event
+
+depend: [PinataParty, PlaceholderAPI]
