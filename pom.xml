@@ -7,7 +7,7 @@
     <groupId>cz.pvpcraft.doygou.pinatakill</groupId>
     <artifactId>PinataKill</artifactId>
     <!-- SEMVER -->
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>PinataKill</name>

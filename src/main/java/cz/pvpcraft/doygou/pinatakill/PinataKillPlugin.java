@@ -1,5 +1,6 @@
 package cz.pvpcraft.doygou.pinatakill;
 
+import cz.pvpcraft.doygou.pinatakill.commands.PinataCommand;
 import cz.pvpcraft.doygou.pinatakill.listeners.PinataKillListener;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -15,6 +16,8 @@ public final class PinataKillPlugin extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(new PinataKillListener(this), this);
+
+        getCommand("pinatakill").setExecutor(new PinataCommand(this));
     }
 
     // Provide a reload for the configuration, restarting or force-reloading for a simple change is inconvenient.
